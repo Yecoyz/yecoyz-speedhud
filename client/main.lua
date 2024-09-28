@@ -10,7 +10,6 @@ CreateThread(function()
             local veh = GetVehiclePedIsIn(player, false)
             local fuel = GetVehicleFuelLevel(veh)
 
-            print(fuel/100 * 200)
             SendNuiMessage(json.encode({
                 type = "show",
                 speed = speed,
