@@ -2,7 +2,7 @@ window.addEventListener("message", function(event) {
     const data = event.data;
 
     if (data.type === "show") {
-        $("#body").show();
+        $("body").show();
 
         document.getElementById("speedometertext").innerText = `${Math.floor(data.speed)} KM/H`;
 
@@ -10,6 +10,6 @@ window.addEventListener("message", function(event) {
 
         $("#fuelbar").css("width", fuellevel); 
     } else if (data.type === "hide") {
-        $("#body").hide();
+        $("body").hide();
     }
 });

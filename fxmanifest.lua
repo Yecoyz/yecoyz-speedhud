@@ -5,7 +5,6 @@ client_scripts {
     "client/main.lua"
 }
 
-
 files {
   "html/index.html",
   "html/*.js",

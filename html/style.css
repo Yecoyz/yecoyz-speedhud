@@ -18,6 +18,7 @@ body {
 #speedometertext {
     color: rgb(185, 185, 185);
     margin-bottom: 10px;
+
 }
 
 #fuel {
@@ -26,6 +27,7 @@ body {
     height: 15px;
     margin: 0 auto;
     position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 #fuelbar {
